@@ -1,17 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="ISO-8859-1">
-    <link rel="stylesheet" href="style.css" />
-    <title>Login Page</title>
-</head>
+<%@ include file="header.jsp"%>
 
 <body>
     <div class="login">
-        <form class="login__card" action="" method="POST">
+    <%@ include file="nav.jsp"%>
+        <form class="login__card" action="login" method="POST">
             <div class="form__heading">
                 <h2 class="card__heading">Welcome To</h2>
                 <p class="card__subheading">

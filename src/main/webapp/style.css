@@ -108,3 +108,10 @@ a {
     color: var(--red);
 }
 /* Login page ended */
+.navbar{
+	display: flex;
+	justify-content: center;
+}
+.navbar a{
+	margin:10px;
+}

@@ -1,18 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="ISO-8859-1">
-    <title>Index Page</title>
-</head>
-
+<%@ include file="header.jsp"%>
 <body>
-    <div style="text-align: center;">
-        <h1>Welcome to FEST</h1>
-        <a href="login.jsp"> Login </a>| <a href="logout.jsp"> Logout </a>| <a href="profile.jsp"> Profile </a>
-    </div>
+	<div style="text-align: center;">
+		<%@ include file="nav.jsp"%>
+		<h1>Welcome to FEST</h1>
+		<h1>Home Page</h1>
+	</div>
 </body>
 
 </html>
