@@ -1,0 +1,110 @@
+@charset "ISO-8859-1";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary: #ddd;
+    --secondary: #000;
+    --red: #e50914;
+    --dark-red: #a30810;
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+.btn-all {
+    background-color: var(--red);
+    font-weight: 700;
+    border-radius: 3px;
+    border-width: 0;
+    padding: 7px 15px;
+    min-width: 80px;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+}
+.btn-all:hover {
+    background-color: var(--dark-red);
+    letter-spacing: 0.1em;
+    cursor: pointer;
+}
+.btn-all,
+.btn-all a {
+    color: #ddd;
+}
+/* Login page started */
+.login {
+    background-color: var(--primary);
+    height: 100vh;
+}
+.login__card {
+    width: 320px;
+    height: auto;
+    padding: 15px;
+    background-color: var(--secondary);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    box-shadow: 0 16px 28px 0 rgb(0 0 0/ 22%), 0 25px 55px 0 rgb(0 0 0/ 21%);
+}
+.form__heading {
+    margin-bottom: 20px;
+}
+.card__heading {
+    color: var(--primary);
+    font-size: 36px;
+    text-align: center;
+    padding-top: 5px;
+}
+.card__subheading {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.card__subheading a {
+    color: var(--primary);
+}
+.card__subheading a:hover {
+    color: var(--red);
+}
+.card__subheading::after {
+    content: "";
+    display: block;
+    width: 45%;
+    padding-top: 5px;
+    margin: 0 auto;
+    border-bottom: 3px solid #fe980f;
+}
+.input__group {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.input__group svg {
+    position: absolute;
+    color: black;
+    min-width: 50px;
+    margin-top: 7px;
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    padding-left: 50px;
+}
+.termsandcondition {
+    color: var(--primary);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.termsandcondition a {
+    color: var(--dark-red);
+}
+.termsandcondition a:hover {
+    color: var(--red);
+}
+/* Login page ended */
